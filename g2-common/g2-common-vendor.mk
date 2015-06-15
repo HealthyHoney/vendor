@@ -16,7 +16,6 @@
 
 PRODUCT_PACKAGES += \
     TimeService \
-    shutdownlistener \
     qcnvitems \
     libtime_genoff \
     libTimeService \
