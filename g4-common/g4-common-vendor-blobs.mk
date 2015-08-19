@@ -770,4 +770,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rp30-ri30.5-v24-tree7-2-wmd.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rp30-ri30.5-v24-tree7-2-wmd.bin \
     vendor/lge/g4-common/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-r.8.1.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-r.8.1.bin \
     vendor/lge/g4-common/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-y-r.8.1.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-y-r.8.1.bin \
-    vendor/lge/g4-common/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin
+    vendor/lge/g4-common/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin \
+    vendor/lge/g4-common/proprietary/etc/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd:system/etc/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd
