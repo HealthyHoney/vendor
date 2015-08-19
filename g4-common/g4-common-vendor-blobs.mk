@@ -772,3 +772,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g4-common/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-y-r.8.1.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-y-r.8.1.bin \
     vendor/lge/g4-common/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin \
     vendor/lge/g4-common/proprietary/etc/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd:system/etc/firmware/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd
+
+#gps:
+
+PRODUCT_COPY_FILES += \
+	vendor/lge/g4-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+	vendor/lge/g4-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+	vendor/lge/g4-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+	vendor/lge/g4-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+	vendor/lge/g4-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
+	vendor/lge/g4-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
+	vendor/lge/g4-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so
