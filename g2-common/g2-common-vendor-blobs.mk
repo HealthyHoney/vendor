@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lge/g2-common/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/lge/g2-common/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-    vendor/lge/g2-common/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/lge/g2-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/g2-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/g2-common/proprietary/bin/hvdcp:system/bin/hvdcp \
@@ -229,7 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/lge/g2-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/lge/g2-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/lge/g2-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
