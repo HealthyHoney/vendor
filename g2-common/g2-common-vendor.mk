@@ -16,7 +16,8 @@
 
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
-    TimeService
+    TimeService \
+    QuickBoot
 
 PRODUCT_PACKAGES += \
     qcnvitems \
