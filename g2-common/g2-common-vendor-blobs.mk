@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/bin/radish:system/bin/radish \
     vendor/lge/g2-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/g2-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/g2-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/g2-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/lge/g2-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/lge/g2-common/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
@@ -304,8 +303,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libstlport_sh_521.so:system/vendor/lib/libstlport_sh_521.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lge/g2-common/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
