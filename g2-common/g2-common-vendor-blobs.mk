@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/lge/g2-common/proprietary/lib/libcir_driver.so:system/lib/libcir_driver.so \
     vendor/lge/g2-common/proprietary/lib/libdivxdrm_jni.so:system/lib/libdivxdrm_jni.so \
-    vendor/lge/g2-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/lge/g2-common/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
     vendor/lge/g2-common/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
     vendor/lge/g2-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
@@ -89,7 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/lib/libmorpho_panorama_wa_viewer.so:system/lib/libmorpho_panorama_wa_viewer.so \
     vendor/lge/g2-common/proprietary/lib/libmorpho_sensor_fusion_4.so:system/lib/libmorpho_sensor_fusion_4.so \
     vendor/lge/g2-common/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
-    vendor/lge/g2-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/lge/g2-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g2-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/g2-common/proprietary/lib/libuicc.so:system/lib/libuicc.so \
@@ -182,7 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
@@ -191,13 +188,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
@@ -207,8 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lge/g2-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/lge/g2-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -244,7 +237,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libmsapm_jni.so:system/vendor/lib/libmsapm_jni.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
@@ -281,7 +273,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/lge/g2-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/lge/g2-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
@@ -296,6 +287,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2-common/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/lge/g2-common/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/lge/g2-common/proprietary/vendor/lib/libSSEPKCS11.so:system/vendor/lib/libSSEPKCS11.so \
